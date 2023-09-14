@@ -4,8 +4,14 @@ int main(void)
 {
 	int year;
 
-	printf("ø¨µµ ¿‘∑¬ :");
 	scanf_s("%d", &year);
+
+	int yy = (year % 4 == 0) && (year % 100 != 0) && (year % 400 == 0);
+
+	if (yy)
+		printf("¿±≥‚¿‘¥œ¥Ÿ.\n");
+	else
+		printf("¿±≥‚æ∆¥‘\n");
 
 
 
