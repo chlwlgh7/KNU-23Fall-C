@@ -4,13 +4,34 @@ int main(void)
 {
 	int input;
 
-	printf("Á¤¼öÀÔ·Â :");
+	printf("ì •ìˆ˜ì…ë ¥ :");
 	scanf_s("%d", &input);
 
 	if (input > 0)
-		printf("¾çÀÇÁ¤¼ö %d", input);
+		printf("ì–‘ì˜ì •ìˆ˜ %d", input);
 	else if (input < 0)
-		printf("À½ÀÇÁ¤¼ö %d", input);
+		printf("ìŒì˜ì •ìˆ˜ %d", input);
+	else
+		printf("0");
+	
+
+
+
+	return 0;
+}
+#include <stdio.h>
+
+int main(void)
+{
+	int input;
+
+	printf("ì •ìˆ˜ì…ë ¥ :");
+	scanf_s("%d", &input);
+
+	if (input > 0)
+		printf("ì–‘ì˜ì •ìˆ˜ %d", input);
+	else if (input < 0)
+		printf("ìŒì˜ì •ìˆ˜ %d", input);
 	else
 		printf("0");
 	
