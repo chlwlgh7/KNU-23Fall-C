@@ -28,9 +28,6 @@ int main(void) {
 		for (int i = 0; i < per; i += 5)
 		{
 			printf("бс");
-		}
-		printf("\n");
-
 
 	}
 }
